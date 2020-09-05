@@ -9,8 +9,6 @@ Link automatically hidden if current user hasn't access to the _Vapor UI Dashboa
 in your  `App\Providers\VaporUiServiceProvider::gate` method. In order to be consistent with Vapor UI it will always show 
 on `local` and `testing` environments. For more information, checkout the [documentation](https://docs.vapor.build/1.0/introduction.html#dashboard-authorization).
 
-## Demo
-
 ![Nova Vapor UI Link Demo](docs/demo.png)
 
 ## Installation
@@ -72,6 +70,8 @@ public function tools()
     ];
 }
 ```
+
+# <p align="center">![Laravel Nova Vapor UI Link Logo](docs/logo.png)</p>
 
 ## Changelog
 
