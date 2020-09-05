@@ -1,0 +1,57 @@
+{
+    "name": "fidum/laravel-nova-vapor-ui-link",
+    "description": "Link for Laravel Nova to Vapor UI Dashboard.",
+    "type": "library",
+    "keywords": [
+        "laravel",
+        "nova",
+        "vapor",
+        "vapor-ui",
+        "link"
+    ],
+    "homepage": "https://github.com/fidum/laravel-nova-vapor-ui-link",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dan Mason",
+            "email": "fidum.dev@gmail.com",
+            "homepage": "https://fidum.uk",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=7.3.0",
+        "laravel/vapor-ui": "^0.0",
+        "laravel/nova": "*"
+    },
+    "require-dev": {
+        "psalm/plugin-laravel": "^1.2",
+        "vimeo/psalm": "^3.11"
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://nova.laravel.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Fidum\\NovaVaporUILink\\": "src/"
+        }
+    },
+    "scripts": {
+        "psalm": "vendor/bin/psalm"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Fidum\\NovaVaporUILink\\LinkServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
