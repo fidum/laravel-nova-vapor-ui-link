@@ -3,8 +3,12 @@
 [![Twitter Follow](https://img.shields.io/twitter/follow/danmasonmp?label=Follow&logo=twitter&style=for-the-badge)](https://twitter.com/danmasonmp)
 
 Adds link to the [Laravel Vapor UI](https://docs.vapor.build/1.0/introduction.html#installing-the-vapor-ui-dashboard)
-Dashboard in the [Laravel Nova](https://nova.laravel.com/) sidebar. Link automatically disables if current user hasn't access to the _Vapor UI Dashboard_ according
-with access policy which is defined in your  `App\Providers\VaporUiServiceProvider::gate` method. For more information, checkout the [documentation](https://docs.vapor.build/1.0/introduction.html#dashboard-authorization).
+Dashboard in the [Laravel Nova](https://nova.laravel.com/) sidebar. 
+
+Link automatically disables if current user hasn't access to the _Vapor UI Dashboard_ according
+with access policy which is defined in your  `App\Providers\VaporUiServiceProvider::gate` method. 
+In order to be consistent with Vapor UI it will always show on `local` and `testing` environments.
+For more information, checkout the [documentation](https://docs.vapor.build/1.0/introduction.html#dashboard-authorization).
 
 ## Demo
 
