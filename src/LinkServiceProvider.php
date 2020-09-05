@@ -13,7 +13,7 @@ class LinkServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        $this->loadViewsFrom(__DIR__.'/../resources/views', 'laravel-nova-vapor-ui-link');
+        $this->loadViewsFrom(__DIR__. '/../resources/views', 'laravel-nova-vapor-ui-link');
     }
 
     /**
