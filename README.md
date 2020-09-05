@@ -29,7 +29,6 @@ Next up, register the link in the `tools` method of the `NovaServiceProvider`:
 public function tools()
 {
     return [
-        // ...
         new \Fidum\NovaVaporUILink\VaporUILink,
     ];
 }
@@ -45,7 +44,6 @@ By default, link label is - **Vapor UI**, if you prefer to customize it, just pa
 public function tools()
 {
     return [
-        // ...
         new \Fidum\NovaVaporUILink\VaporUILink('Custom Label'),
 
         // or
