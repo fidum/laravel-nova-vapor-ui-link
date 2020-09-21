@@ -29,8 +29,7 @@ class VaporUILink extends Tool
         });
 
         $this->canSee(function ($request) {
-            return app()->environment(['local', 'testing'])
-                || Gate::check('viewVaporUI', [$request->user()]);
+            return app()->environment('local') || Gate::check('viewVaporUI', [$request->user()]);
         });
     }
 
