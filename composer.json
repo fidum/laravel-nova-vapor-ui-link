@@ -25,8 +25,8 @@
         "laravel/nova": "*"
     },
     "require-dev": {
-        "psalm/plugin-laravel": "^1.2",
-        "vimeo/psalm": "^3.11"
+        "psalm/plugin-laravel": "^1.4",
+        "vimeo/psalm": "^4.0"
     },
     "repositories": [
         {
